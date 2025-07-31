@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroSmart Cañete</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2d6a4f;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background-color: #40916c;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0.5em;
+    }
+    nav a {
+      color: white;
+      margin: 5px 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5em;
+      margin-bottom: 2em;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    ul {
+      padding-left: 1.2em;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: center;
+    }
+    .gallery img {
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .formulario {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+    }
+    .formulario input, .formulario textarea {
+      margin-bottom: 1em;
+      padding: 0.8em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .formulario button {
+      padding: 0.8em;
+      background-color: #2d6a4f;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    blockquote {
+      font-style: italic;
+      color: #555;
+      border-left: 4px solid #2d6a4f;
+      padding-left: 1em;
+      margin: 1em 0;
+    }
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .stat {
+      text-align: center;
+      margin: 1em;
+    }
+    .stat h3 {
+      font-size: 2em;
+      color: #2d6a4f;
+    }
+    footer {
+      text-align: center;
+      background-color: #1b4332;
+      color: white;
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AgroSmart Cañete</h1>
+    <p>Cultiva con inteligencia, cosecha con éxito</p>
+  </header>
+  <nav>
+    <a href="#problema">Problema</a>
+    <a href="#solucion">Solución</a>
+    <a href="#app">App</a>
+    <a href="#educativo">Educación</a>
+    <a href="#impacto">Impacto</a>
+    <a href="#galeria">Galería</a>
+    <a href="#testimonios">Testimonios</a>
+    <a href="#estadisticas">Estadísticas</a>
+    <a href="#registro">Registro</a>
+  </nav>
+  <section id="problema" class="card">
+    <h2>¿Cuál es el problema?</h2>
+    <p>En Cañete, muchos agricultores aún dependen de prácticas tradicionales que no consideran el clima cambiante ni la optimización de recursos como el agua o fertilizantes. Esto genera:</p>
+    <ul>
+      <li>Bajo rendimiento de cultivos.</li>
+      <li>Pérdida de cosechas por plagas o sequías.</li>
+      <li>Desconocimiento sobre tecnología agrícola.</li>
+    </ul>
+  </section>
+  <section id="solucion" class="card">
+    <h2>Nuestra Solución</h2>
+    <p>Proponemos una plataforma que integre:</p>
+    <ul>
+      <li><strong>Kit de sensores inteligentes</strong> (humedad, temperatura, lluvia) con tecnología Arduino.</li>
+      <li><strong>App y web</strong> que recopila y muestra los datos del campo en tiempo real.</li>
+      <li><strong>Alertas automáticas</strong> sobre necesidad de riego o amenazas climáticas.</li>
+      <li><strong>Capacitación gratuita</strong> para agricultores con lenguaje accesible.</li>
+    </ul>
+  </section>
+  <section id="app" class="card">
+    <h2>Aplicación Móvil y Web</h2>
+    <p>Desde cualquier celular, los agricultores podrán:</p>
+    <ul>
+      <li>Visualizar datos de sus parcelas (humedad, temperatura, etc.).</li>
+      <li>Recibir alertas en tiempo real.</li>
+      <li>Acceder a recomendaciones personalizadas de cultivo.</li>
+      <li>Consultar un calendario agrícola local.</li>
+    </ul>
+  </section>
+  <section id="educativo" class="card">
+    <h2>Módulo Educativo</h2>
+    <p>La plataforma incluye:</p>
+    <ul>
+      <li>Videos cortos sobre instalación de sensores y manejo de app.</li>
+      <li>Manual descargable para agricultores.</li>
+      <li>Asesoramiento en buenas prácticas agrícolas sostenibles.</li>
+      <li>Historias de éxito de agricultores locales que usan tecnología.</li>
+    </ul>
+  </section>
+  <section id="impacto" class="card">
+    <h2>Impacto Esperado</h2>
+    <p>Este proyecto mejorará la calidad de vida en Cañete mediante:</p>
+    <ul>
+      <li>Aumento del rendimiento agrícola.</li>
+      <li>Uso eficiente del agua y fertilizantes.</li>
+      <li>Digitalización del agro local.</li>
+      <li>Fomento del emprendimiento juvenil con propósito social.</li>
+    </ul>
+  </section>
+  <section id="galeria" class="card">
+    <h2>Galería de Uso en Campo</h2>
+    <div class="gallery">
+      <img src="sensor1.jpg" alt="Sensor en cultivo">
+      <img src="app_view.jpg" alt="Pantalla de la app">
+      <img src="riego.jpg" alt="Riego automatizado">
+    </div>
+  </section>
+  <section id="testimonios" class="card">
+    <h2>Testimonios</h2>
+    <blockquote>"Gracias a AgroSmart, ahora sé exactamente cuándo regar y mi producción ha mejorado mucho." - Juan, agricultor de Imperial</blockquote>
+    <blockquote>"Este proyecto nos ha enseñado a usar tecnología sin miedo. Es fácil y útil." - Rosa, productora de frutales en San Vicente</blockquote>
+  </section>
+  <section id="estadisticas" class="card">
+    <h2>Estadísticas en Tiempo Real</h2>
+    <div class="stats">
+      <div class="stat">
+        <h3>+150</h3>
+        <p>Parcelas monitoreadas</p>
+      </div>
+      <div class="stat">
+        <h3>85%</h3>
+        <p>Aumento en eficiencia hídrica</p>
+      </div>
+      <div class="stat">
+        <h3>20%</h3>
+        <p>Incremento en la producción</p>
+      </div>
+    </div>
+  </section>
+  <section id="registro" class="card">
+    <h2>Formulario de Registro</h2>
+    <form class="formulario">
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <textarea rows="4" placeholder="¿Qué te gustaría implementar con AgroSmart?" required></textarea>
+      <button type="submit">Enviar Registro</button>
+    </form>
+  </section>
+  <footer>
+    <p>AgroSmart Cañete &copy; 2025 - Un proyecto educativo para transformar el agro local</p>
+  </footer>
+</body>
+</html>
